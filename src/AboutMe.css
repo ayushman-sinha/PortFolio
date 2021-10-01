@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@600&display=swap');
+
+#aboutme_cont
+{
+    display: block;
+    position:absolute;
+  width: 100%;
+  height:950px; 
+ margin-top: 1vh;
+ background: rgb(2,0,36);
+background: linear-gradient(170deg, rgba(2,0,36,1) 0%, rgba(65,9,93,1) 65%);
+
+}
+.head_container
+{
+    display:flex;
+    justify-content: baseline;
+ overflow: hidden;
+   
+}
+.about_heading
+{
+    
+    position:absolute;
+    color: blanchedalmond;
+    font-size: 4em;
+    font-family: 'Stick No Bills', sans-serif;
+    
+    margin-left: 38.5vw;
+    margin-top: 35px;
+}
+.text_container
+{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 1.5em;
+    width:80%;
+    height:10em;
+    text-align: justify;
+ /*background-color: black;*/
+    position: absolute;
+    align-content: center;
+   margin-top:5.5em;
+   margin-left:5.8em;
+  
+   text-shadow: 1px 1px 10px black;
+ 
+ 
+}
+#contact_container
+{
+    display: block;
+    position:absolute;
+  width: 100%;
+  height:500px; 
+ margin-top: 1vh;
+}
+.contact_container
+{
+   display: flex;
+   justify-content: baseline;
+}
+.contact_heading
+{
+    
+    position:absolute;
+    color: blanchedalmond;
+    font-size: 4em;
+    font-family: 'Stick No Bills', sans-serif;
+ 
+    margin-left: 37.2vw;
+    margin-top: 350px;
+}
+.contact_col
+{
+    width: 100%;
+ display: flex;
+ position: relative;
+ flex-direction: row;
+ padding: 10px;
+ margin-top: 20px;
+ margin-left: -3.5em;
+
+}
+.content1
+{
+    display: flex;   
+    width:300px;
+    height: 200px;
+    margin-right: 50px;
+   /* background-color: blanchedalmond;*/
+}
+.content1:hover{
+    transform: scale(1.1);
+    transition: 0.6s ease-in-out ;
+}
+.content2
+{
+    display: flex;   
+    width:300px;
+    height: 200px;
+    margin-right: 50px;
+   /* background-color: blanchedalmond;*/
+}
+.content2:hover{
+    transform: scale(1.1);
+    transition: 0.6s ease-in-out ;
+}
+
+.img_size
+{
+  color:whitesmoke;
+     position:relative;
+}
+.img_size:hover
+{
+    color:bisque;
+    transition: 0.6s ease-in-out ;
+    transform:rotate(-5deg);
+}
+.img_size1
+{
+  color:whitesmoke;
+     position:relative;
+}
+.img_size1:hover
+{
+    color:bisque;
+    transition: 0.6s ease-in-out ;
+    transform:rotate(5deg);
+}
+#footer_
+{font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 910px;
+    width: 100%;
+    height:20px;
+   /* background-color: red; */
+  
+}
+@media (max-width:688px)
+{
+    #aboutme_cont
+    {
+        margin-top: -18em;
+    }
+    .about_heading
+   {
+    font-size: 3em;
+    margin-left: 2.8em ;
+   }
+   .text_container{
+       font-size: 1.2em;
+       margin-left:3.0em;
+   }
+   .contact_heading
+{
+    font-size: 3em;
+    margin-top:8.5em;
+    margin-left: 2.8em ;
+    
+}
+.contact_col{
+    margin-top:-80px;
+    margin-bottom: 80px;
+}
+.content1{
+    width: 35px;
+    height: 25px;
+   margin-left:1.2em;
+   margin-top: 2em;
+  }
+  .content2{
+      width: 35px;
+      height: 25px;
+      margin-left: 1.2em;
+      margin-top: 2em;
+    }
+    #footer_
+    {
+        font-size: 0.9em;
+    }
+}

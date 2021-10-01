@@ -1,0 +1,168 @@
+#mainContent
+{
+   width: 100%;
+   height:36em;
+  display: flex;
+min-width: 538px;overflow: hidden;
+}
+#overflow_hide
+{    
+   display:block;
+    width:100%;
+    height:100px;
+    overflow: hidden;
+    z-index: -1;
+
+}
+.blurred
+{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: rgb(67,197,241);
+   margin-top:auto;
+    z-index: 2;
+    opacity: 0.8;
+background: linear-gradient(180deg, rgba(67,197,241,1) 0%, rgba(90,36,120,1) 77%, rgba(21,8,42,1) 100%, rgba(185,70,252,1) 100%);
+}
+@font-face {
+    font-family: Valencia;
+    src: url(./font/Valencia\ 400.ttf);
+}
+.L1edit
+{
+    position: absolute;
+display: flex;
+ width: 100%;
+ height: auto;
+margin-top: 40vh;
+z-index: 2;
+
+}
+.L1Move
+{
+    position: absolute;
+display: flex;
+ width: 43%;
+ height: auto;
+margin-top: 42vh;
+z-index: 2;  
+}
+.L2edit
+{
+    position: absolute;
+display: flex;
+ width: 100%;
+ height: auto;
+ margin-top: 40vh;
+ z-index: index 1;
+}
+.L2Move
+{
+    position: absolute;
+display: flex;
+ width: 35%;
+ height: auto;
+margin-top: 46vh;
+margin-left: 68vw;
+z-index: 1;  
+}
+.containName
+{
+ position: absolute;
+ width: 50%;
+ height: 20vw;
+ margin-top: 20vh;
+}
+.Myname
+{
+    position:absolute;
+    display: flex;
+    font-family:Valencia;
+    color: blanchedalmond;
+    text-shadow: 1px 1px 10px rgb(26, 8, 43);
+    font-size: 10vw;
+    margin-top: 24vh;
+    margin-left: 38vw;
+    z-index: -4;
+  
+}
+.Myname2
+{
+    position:absolute;
+    display: flex;
+    font-family:Valencia;
+    color: blanchedalmond;
+    text-shadow: 1px 1px 10px rgb(26, 8, 43);
+    font-size: 10vw;
+    margin-top: 42vh;
+    margin-left: 48vw;
+    z-index: -4;
+  
+}
+.M2edit
+{
+    object-fit: contain;
+    position:absolute;
+display: flex;
+width: 28vw;
+height: 50vh;
+ margin-left: 69vw;
+ margin-top: 22vh;
+ z-index: -1;
+ 
+}
+.M1edit
+{
+    object-fit: contain;
+    position: absolute;
+display: flex;
+width: 25vw;
+height: 33vh;
+ margin-left: 9vw;
+ margin-top: 13vh;
+ z-index: -1;
+
+}
+.M3edit
+{
+    object-fit: contain;
+    position: absolute;
+display: flex;
+width: 18vw;
+height: 14vh; 
+z-index: -1;
+margin-top: 40vh; 
+margin-left: 24vw;
+
+}
+
+.Sedit
+{
+    object-fit: contain;
+    opacity: 0.5;
+    width: 100%;
+    height: 80vh;
+    margin-left:-2vw;
+    position: absolute;
+z-index: -2;
+animation-name:stars;
+animation-direction: alternate;
+animation-duration:4s;
+animation-iteration-count: infinite;
+animation-play-state: running;
+overflow-y: scroll;
+transform: scale(1.5);
+}
+@keyframes stars
+{
+    0%{ opacity: 0.3;}
+    25%{ opacity: 0.75;}
+    50%{  opacity: 0.90;}
+    75%{  opacity: 0.75;}
+   100%{  opacity: 0.3;}
+}
+@media ( max-width:688px)
+{
+
+}
