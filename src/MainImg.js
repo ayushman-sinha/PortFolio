@@ -46,10 +46,22 @@ const MainImg = () => {
           </div>
           </div>
           <div className="text_container">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Hi, I am Ayushman Sinha and I am pursuing my Bachelor's in Information Science and Engineering from Siddaganga Institute of Technology, Tumakuru.
+          I am from Jamshedpur and I completed my schooling from Hill Top School, Jamshedpur.<br></br> Looking at
+various types of applications and wondering how exactly they function
+made me realize that software development as a career would give me an
+opportunity to develop my very own application softwares and understand
+their working.  
+<br></br>
+Currently, I am working on a Gantt Chart visualizer which would help  visualize the various CPU scheduling algorithms like FCFS, SJF and Round Robin to name a few.
+THe project can be found omy github page mentioned below.
+
           </div>
+          <p></p>
           <div className="contact_container">
+          <p></p><p></p>
           <div className="contact_heading">
+        
                -Contact Me-
                <div className="contact_col">
               <div className="content1"><a href="https://github.com/ayushman-sinha" target="_blank" rel="noreferrer"><i class="fab fa-github-square fa-3x img_size" title="Github"></i></a></div>
@@ -67,7 +79,9 @@ const MainImg = () => {
          
 
           </div>
+          
           <div id="footer_">
+              
               Copyright&#9400; 2021 Ayushman Sinha. All rights reserved.
           </div>
              </div>  

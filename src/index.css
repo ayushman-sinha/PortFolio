@@ -1,7 +1,7 @@
 
 
 body {
-
+ width: 100%;
   margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -15,7 +15,7 @@ body {
   background: linear-gradient(164deg, rgba(6,33,65,1) 34%, rgba(84,48,153,1) 69%, rgba(185,70,252,1) 100%, rgba(134,52,110,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#062141",endColorstr="#86346e",GradientType=1);
   overflow-x: hidden;
-min-width: 538px;
+
 }
 a { color: inherit; text-decoration: none;} 
 code {
