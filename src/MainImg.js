@@ -46,6 +46,7 @@ const MainImg = () => {
           </div>
           </div>
           <div className="text_container">
+              <p></p>
           Hi, I am Ayushman Sinha and I am pursuing my Bachelor's in Information Science and Engineering from Siddaganga Institute of Technology, Tumakuru.
           I am from Jamshedpur and I completed my schooling from Hill Top School, Jamshedpur.<br></br> Looking at
 various types of applications and wondering how exactly they function
