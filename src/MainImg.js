@@ -54,7 +54,7 @@ opportunity to develop my very own application softwares and understand
 their working.  
 <br></br>
 Currently, I am working on a Gantt Chart visualizer which would help  visualize the various CPU scheduling algorithms like FCFS, SJF and Round Robin to name a few.
-THe project can be found omy github page mentioned below.
+The project can be found omy github page mentioned below.
 
           </div>
           <p></p>
